@@ -7,7 +7,7 @@ Speaker verification is the task of determining whether a given audio sample bel
 Speaker verification is a critical component in voice-based authentication systems. Traditional methods often rely on complex feature engineering and require a substantial amount of labeled data for training. Siamese networks offer an alternative approach that can learn speaker verification tasks with limited labeled data.
 
 ### Solution
-A Siamese network consists of two identical neural networks (twin networks) with shared weights. It learns to differentiate between pairs of inputs. In speaker verification, we can use Siamese networks to learn a similarity metric between spectrogram representations of audio samples. Positive pairs contain spectrograms from the same speaker, while negative pairs contain spectrograms from different speakers.
+A Siamese network consists of two identical neural networks (twin networks) with shared weights. It learns to differentiate between pairs of inputs. In speaker verification, I used Siamese networks to learn a similarity metric between spectrogram representations of audio samples. Positive pairs contain spectrograms from the same speaker, while negative pairs contain spectrograms from different speakers.
 
 ### Implementation
 1. Audio to Spectrogram Conversion
